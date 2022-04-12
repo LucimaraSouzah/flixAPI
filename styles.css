@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+}
+
+header {
+  max-width: 100%;
+  height: 20%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(190, 59, 59);
+  max-width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.logo-svg {
+  width: 30px;
+  margin-right: 20px;
+}
+
+.title {
+  font-size: 30px;
+  font-family: "Inconsolata", monospace;
+  font-weight: light 300;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: hsl(216, 93%, 11%);
+  padding: 10px;
+}
+
+.movie-photo {
+  height: 350px;
+  margin-right: 40px;
+}
+
+.movie {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 60px;
+}
+
+.movie-desc {
+  width: 200px;
+  color: aliceblue;
+  font-family: "Inconsolata", monospace;
+  font-weight: 400;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.button {
+  margin-top: 20px;
+  padding: 20px 50px;
+  border-radius: 40px;
+  background-color: rgb(190, 59, 59);
+  color: #fff;
+  font-family: "Inconsolata", monospace;
+  border: 1px solid black;
+}
+
+.button:hover {
+  background-color: rgb(138, 40, 40);
+}
+
+.desc-button {
+  color: aliceblue;
+  font-family: "Inconsolata", monospace;
+  font-weight: 400;
+  text-align: justify;
+  font-size: 13px;
+  margin-top: 20px;
+}
