@@ -141,9 +141,6 @@ h1 {
   .logo {
     padding: 15px;
   }
-  main {
-    height: max-content;
-  }
   .movie-desc {
     flex: 1;
     height: max-content;
@@ -159,7 +156,7 @@ h1 {
     display: none;
   }
   body {
-    overflow: visible;
+    overflow: scroll;
   }
 }
 
@@ -184,10 +181,14 @@ h1 {
   }
   .movie-photo {
     width: auto;
+    height: max-content;
+  }
+  .movie-desc {
+    flex: 1;
+    height: max-content;
   }
   p {
     font-size: 0.7em;
-    width: 100px;
   }
   .button {
     width: 100px;
