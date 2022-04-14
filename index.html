@@ -29,15 +29,19 @@
     </header>
     <main>
         <div class="movie">
-          <img class="movie-photo" src="assets/movie.jpg" />
+          <div class="movie-block">
+            <img id="movieImg" class="movie-photo" src="assets/movie.jpg" />
+          </div>
           <div class="movie-desc">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo dignissimos magni fugit blanditiis cupiditate repellendus esse nam! Nulla, fuga sapiente. Laboriosam omnis atque obcaecati modi dicta necessitatibus dolorem rerum praesentium.</p>
+            <h1 id="movieTitle">Nome do Filme</h1>
+            <p id="movieDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo dignissimos magni fugit blanditiis cupiditate repellendus esse nam! Nulla, fuga sapiente. Laboriosam omnis atque obcaecati modi dicta necessitatibus dolorem rerum praesentium.</p>
             <button class="button" onclick="encontrar()">Encontrar filme</button>
             <p class="desc-button">Clique em "Encontrar filme" que irá trazer outro filme </p> 
           </div>
         </div>
     </main>
     </header>
+   <script src="list.js"></script>
    <script src="main.js"></script>
   </body>
 </html>
